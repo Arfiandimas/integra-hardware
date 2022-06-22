@@ -1,0 +1,15 @@
+/var/www/html/DotNet/CP/Integra-Hardware/bin/Debug/net6.0/Integra-Hardware
+/var/www/html/DotNet/CP/Integra-Hardware/bin/Debug/net6.0/Integra-Hardware.deps.json
+/var/www/html/DotNet/CP/Integra-Hardware/bin/Debug/net6.0/Integra-Hardware.runtimeconfig.json
+/var/www/html/DotNet/CP/Integra-Hardware/bin/Debug/net6.0/Integra-Hardware.dll
+/var/www/html/DotNet/CP/Integra-Hardware/bin/Debug/net6.0/Integra-Hardware.pdb
+/var/www/html/DotNet/CP/Integra-Hardware/obj/Debug/net6.0/Integra-Hardware.csproj.AssemblyReference.cache
+/var/www/html/DotNet/CP/Integra-Hardware/obj/Debug/net6.0/Integra-Hardware.GeneratedMSBuildEditorConfig.editorconfig
+/var/www/html/DotNet/CP/Integra-Hardware/obj/Debug/net6.0/Integra-Hardware.AssemblyInfoInputs.cache
+/var/www/html/DotNet/CP/Integra-Hardware/obj/Debug/net6.0/Integra-Hardware.AssemblyInfo.cs
+/var/www/html/DotNet/CP/Integra-Hardware/obj/Debug/net6.0/Integra-Hardware.csproj.CoreCompileInputs.cache
+/var/www/html/DotNet/CP/Integra-Hardware/obj/Debug/net6.0/Integra-Hardware.dll
+/var/www/html/DotNet/CP/Integra-Hardware/obj/Debug/net6.0/refint/Integra-Hardware.dll
+/var/www/html/DotNet/CP/Integra-Hardware/obj/Debug/net6.0/Integra-Hardware.pdb
+/var/www/html/DotNet/CP/Integra-Hardware/obj/Debug/net6.0/Integra-Hardware.genruntimeconfig.cache
+/var/www/html/DotNet/CP/Integra-Hardware/obj/Debug/net6.0/ref/Integra-Hardware.dll
