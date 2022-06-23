@@ -18,9 +18,10 @@ public class UDPListener
             {
                 Console.WriteLine("Waiting for broadcast");
                 byte[] bytes = listener.Receive(ref groupEP);
-                if(Encoding.ASCII.GetString(bytes, 0, bytes.Length) != "")
+                string dataReceive = Encoding.ASCII.GetString(bytes, 0, bytes.Length);
+                if(dataReceive != "")
                 {
-                    ReturnResponse();
+                    ReturnResponse("success");
                 } else {
                     ReturnResponse("failed");
                 }
@@ -32,12 +33,12 @@ public class UDPListener
         }
     }
 
-    static void ReturnResponse(string message = "success")
+    static void ReturnResponse(string message )
     {
         Socket sock = new Socket(AddressFamily.InterNetwork, SocketType.Dgram,ProtocolType.Udp);
         IPAddress serverAddr = IPAddress.Parse("192.168.1.23");
-        IPEndPoint endPoint = new IPEndPoint(serverAddr, 8888);
-        byte[] send_buffer = Encoding.ASCII.GetBytes("success");
+        IPEndPoint endPoint = new IPEndPoint(serverAddr, 9999);
+        byte[] send_buffer = Encoding.ASCII.GetBytes(message);
         sock.SendTo(send_buffer, endPoint);
     }
 
